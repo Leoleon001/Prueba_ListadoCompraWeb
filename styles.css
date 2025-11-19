@@ -1,0 +1,70 @@
+/* ==========================================================
+   RESET BÁSICO
+   ========================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================================================
+   VARIABLES (COLORES, FUENTES, ETC.)
+   ========================================================== */
+:root {
+    --color-primario: #4a90e2;
+    --color-secundario: #2d3e50;
+    --color-fondo: #f5f7fa;
+    --texto-normal: #333;
+    --fuente-base: "Arial", sans-serif;
+}
+
+/* ==========================================================
+   ESTILO GLOBAL
+   ========================================================== */
+body {
+    font-family: var(--fuente-base);
+    background-color: var(--color-fondo);
+    color: var(--texto-normal);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ==========================================================
+   ENCABEZADOS
+   ========================================================== */
+h1, h2, h3, h4 {
+    color: var(--color-primario);
+    margin-bottom: 10px;
+}
+
+/* ==========================================================
+   CONTENEDORES
+   ========================================================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ==========================================================
+   BOTONES
+   ========================================================== */
+.btn {
+    background-color: var(--color-primario);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--color-secundario);
+}
+
+/* ==========================================================
+   UTILIDADES
+   ========================================================== */
+.mt-1 { margin-top: 10px; }
+.mt-2 { margin-top: 20px; }
+.mt-3 { margin-top: 30px; }
